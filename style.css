@@ -1,0 +1,48 @@
+body{
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: blue;
+    background-image: url(bg.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.card{
+    background-color: pink;
+    padding: 30px;
+    border-style:dotted;
+    border-color: black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+.hidden{
+    display:none;
+}
+.questionBox{
+    text-align: center;
+    border-radius: 10;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-style:dashed;
+    color:#d63384;
+
+}
+.locationImage{
+    width:100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+#secret-message{
+
+  margin-top: 20px;
+  color: #d63384;
+}

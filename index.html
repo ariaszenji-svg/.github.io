@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Surprise for my beautiful!</title>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+
+    <div class = "card">
+    <h1>Answer the series of questions!</h1>
+    <p>Unlock our next date</p>
+    <div id = 'firstQuestion'class = 'questionBox'>
+    <label>Where was the first place we went to go eat together?</label>
+    <input type ="text" id = "firstAnswer" placeholder = "Type your answer... ">
+    <button onClick = checkAnswer1()>Check to Reveal Answer</button>
+    </div>
+
+    <div id = 'secondQuestion'class = 'hiddenQuestionBox hidden'>
+        <label>When did I ask to be your boyfriend? (##/##)</label>
+    <input type ="text" id = "secondAnswer" placeholder = "Type your answer... ">
+    <button onClick = checkAnswer2()>Check to Reveal Answer</button>
+    </div>
+
+    <div id = 'thirdQuestion'class = 'hiddenQuestionBox hidden'>
+    <label>Your favorite food</label>
+    <input type ="text" id = "thirdAnswer" placeholder = "Type your answer... ">
+    <button onClick = checkAnswer3()>Click to Reveal Out Next Date</button>
+    </div>
+    <div id = "secret-message" class = "hidden">
+        <h2>Our next date will be at golf'n'stuff, Oct 28th!</h2>
+        <img src = "golfnstuff.jpg" alt = 'Golf N' Stuff' class = 'locationImage'>
+        <a href="https://maps.app.goo.gl/WMrwvrxN4QAKYN888" target="_blank" class="map-button">
+      📍 Open Location in Google Maps
+    </a>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
